@@ -1,0 +1,53 @@
+@import url("reset.css");
+
+:root {
+    /* color */
+    --color-black: #3f454d;
+    --color-white: #ffffff;
+    --color-blue: #3b88c3;
+    --color-yellow: #fbbe28;
+    --color-pink: #fd7f84;
+    --color-light-grey: #dfdfdf;
+
+    /* size */
+    --size-button: 60px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-black);
+}
+
+/* nav */
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    background-color: var(--color-pink);
+}
+
+nav .logo {
+    width: var(--size-button);
+}
+/* main */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 155px;
+    background-color: transparent;
+    border: 3px solid var(--color-light-grey);
+    border-radius: 50%;
+}
