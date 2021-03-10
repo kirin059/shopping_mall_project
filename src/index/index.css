@@ -26,6 +26,7 @@ body {
 nav {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 10px;
     width: 100%;
     background-color: var(--color-pink);
@@ -34,6 +35,14 @@ nav {
 nav .logo {
     width: var(--size-button);
 }
+
+nav span {
+    padding: 20px 30px;
+    color: var(--color-white);
+    font-size: 40px;
+    font-weight: 900;
+}
+
 /* main */
 main {
     display: flex;
@@ -42,12 +51,12 @@ main {
 }
 
 .home_btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 155px;
-    height: 155px;
-    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 45 %;
+    width: 145px;
+    height: 145px;
+    background-color: var(--color-light-grey);
     border: 3px solid var(--color-light-grey);
     border-radius: 50%;
 }
