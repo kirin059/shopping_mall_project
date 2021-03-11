@@ -64,8 +64,8 @@ main {
     position: absolute;
     top: 400px;
     left: 0;    
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     background-color: var(--color-light-grey);
     border: 3px solid var(--color-light-grey);
     border-radius: 50%;
@@ -76,3 +76,53 @@ main {
 .home_btn:hover {
     transform: scale(1.1);
 }
+
+.gradient-circle {
+    position: absolute;
+    top: 390px;
+    left: -10px;
+    z-index: -2;
+    height: 100%;
+    width: 100%;
+      /* 원뿔 그레디언트 */
+    background: conic-gradient(   
+        /*40%*/
+        #0e3149 5%,
+        #97a1ad 35%,
+        /*20%*/
+        #fd7f84 40%,
+        #fd7f84 60%,
+        /*40%*/
+        #3b88c3 70%,
+        #123550 100%
+    );
+    border-radius: 50%;
+  }
+
+  .pointer {
+    background-color: #fff;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: block;
+  }
+  
+  .pointer-container {
+    position: absolute;
+    top: 363px;
+    left: 85px;
+    width: 10px;
+    height: 130px;
+    animation: rotate 7.5s linear forwards infinite;
+    transform-origin: bottom center;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
