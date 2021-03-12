@@ -2,121 +2,121 @@
     "lists" : [
     {
         "gender" : "female",
-        "image" : "../../img/shoppingmall_logo1.png",
+        "image" : "../../img/shoppingmall_logo1.jpg",
         "name" : "하프나틱",
         "url" :"http://www.hypnotic.co.kr/?da_ref=Yz1kRHRTaVM=&_sta1=MUwwTDEwMDFMU0wxNzA0TDBMMEwwTE5MMDAw" 
     },
     {
         "gender" : "male",
-        "image" : "../../img/shoppingmall_logo11.png",
+        "image" : "../../img/shoppingmall_logo11.jpg",
         "name" : "재이브로스",
         "url" :"http://www.jbros.co.kr/?da_ref=Yz1YT2hFZ3k=&_sta1=MUwwTDEwMDFMU0w3NjlMMEwwTDBMTkww" 
     },
     {
         "gender" : "female",
-        "image" : "../../img/shoppingmall_logo2.png",
+        "image" : "../../img/shoppingmall_logo2.jpg",
         "name" : "베니토",
         "url" :"https://www.benito.co.kr/?cafe_mkt=sta&_sta1=MUwwTDEwMDFMU0wyNzRMMEwwTDBMTkww" 
     },
     {
         "gender" : "male",
-        "image" : "../../img/shoppingmall_logo12.png",
+        "image" : "../../img/shoppingmall_logo12.jpg",
         "name" : "롸킥스",
         "url": "https://lakickz.com/?_sta1=MUwwTDEwMDFMU0wzMjY0TDBMMEwwTE5MMDAw" 
     },
     {
         "gender" : "female",
-        "image" : "../../img/shoppingmall_logo3.png",
+        "image" : "../../img/shoppingmall_logo3.jpg",
         "name" : "쵸퍼",
         "url" :"http://www.choper.kr/?cafe_mkt=sta&_sta1=MUwwTDEwMDFMU0wxNDkyTDBMMEwwTE5MMDAw" 
     },
     {
         "gender" : "male",
-        "image" : "../../img/shoppingmall_logo13.png",
+        "image" : "../../img/shoppingmall_logo13.jpg",
         "name" : "맨인스토어",
         "url" :"https://www.maninstore.co.kr/?cafe_mkt=sta&_sta1=MUwwTDEwMDFMU0wyOTg4TDBMMEwwTE5MMDAw" 
     },
     {
         "gender" : "female",
-        "image" : "../../img/shoppingmall_logo4.png",
+        "image" : "../../img/shoppingmall_logo4.jpg",
         "name" : "세디",
         "url" :"https://sedy.co.kr/?_sta1=MUwwTDEwMDFMU0w1MDMzTDBMMEwwTE5MMDAw" 
     },
     {
         "gender" : "male",
-        "image" : "../../img/shoppingmall_logo14.png",
+        "image" : "../../img/shoppingmall_logo14.jpg",
         "name" : "슈퍼스타아이",
         "url" :"http://www.superstari.co.kr/?da_ref=Yz1sR0Z1NHk=&ref=mbion&mkpl1=Mob" 
     },
     {
         "gender" : "female",
-        "image" : "../../img/shoppingmall_logo5.png",
+        "image" : "../../img/shoppingmall_logo5.jpg",
         "name" : "다바걸",
         "url" :"http://www.dabagirl.co.kr/?cafe_mkt=ue_stcom01&_sta1=MUwwTDEwMDFMU0wxNThMMEwwTDBMTkww" 
     },
     {
         "gender" : "male",
-        "image" : "../../img/shoppingmall_logo15.png",
+        "image" : "../../img/shoppingmall_logo15.jpg",
         "name" : "오까네",
         "url" :"http://okkane.co.kr/?_sta1=MUwwTDEwMDFMU0wyNTZMMEwwTDBMTkww" 
     },
     {
         "gender" : "female",
-        "image" : "../../img/shoppingmall_logo6.png",
+        "image" : "../../img/shoppingmall_logo6.jpg",
         "name" : "아뜨랑스",
         "url" :"https://attrangs.co.kr/?_sta1=MUwwTDEwMDFMU0wxMzU0TDBMMEwwTE5MMDAw" 
     },
     {
         "gender" : "male",
-        "image" : "../../img/shoppingmall_logo16.png",
+        "image" : "../../img/shoppingmall_logo16.jpg",
         "name" : "더니트컴퍼니",
         "url" :"https://theknitcompany.com/?_sta1=MUwwTDEwMDFMU0wzMjc1TDBMMEwwTE5MMDAw" 
     },
     {
         "gender" : "female",
-        "image" : "../../img/shoppingmall_logo7.png",
+        "image" : "../../img/shoppingmall_logo7.jpg",
         "name" : "츄",
         "url" :"https://chuu.co.kr/?_sta1=MUwwTDEwMDFMU0wxMTkxTDBMMEwwTE5MMDAw" 
     },
     {
         "gender" : "male",
-        "image" : "../../img/shoppingmall_logo17.png",
+        "image" : "../../img/shoppingmall_logo17.jpg",
         "name" : "조군샵",
         "url" :"http://www.jogunshop.com/?da_ref=Yz1RQXQ2cmM=" 
     },
     {
         "gender" : "female",
-        "image" : "../../img/shoppingmall_logo8.png",
+        "image" : "../../img/shoppingmall_logo8.jpg",
         "name" : "젝시믹스",
         "url" :"http://xexymix.com/?_sta1=MUwwTDEwMDFMU0w0NjgxTDBMMEwwTE5MMDAw" 
     },
     {
         "gender" : "male",
-        "image" : "../../img/shoppingmall_logo18.png",
+        "image" : "../../img/shoppingmall_logo18.jpg",
         "name" : "4XR",
         "url" :"http://4xr.co.kr/?_sta1=MUwwTDEwMDFMU0w3MTNMMEwwTDBMTkww" 
     },
     {
         "gender" : "female",
-        "image" : "../../img/shoppingmall_logo9.png",
+        "image" : "../../img/shoppingmall_logo9.jpg",
         "name" : "안나키즈",
         "url" :"http://annakids.co.kr/?_sta1=MUwwTDEwMDFMU0wxNTY5TDBMMEwwTE5MMDAw" 
     },
     {
         "gender" : "male",
-        "image" : "../../img/shoppingmall_logo19.png",
+        "image" : "../../img/shoppingmall_logo19.jpg",
         "name" : "고피플",
         "url" :"http://www.gopeople.co.kr/?_sta1=MUwwTDEwMDFMU0wyOTU3TDBMMEwwTE5MMDAw" 
     },
     {
         "gender" : "female",
-        "image" : "../../img/shoppingmall_logo10.png",
+        "image" : "../../img/shoppingmall_logo10.jpg",
         "name" : "리틀블랙",
         "url": "https://www.littleblack.co.kr/?_sta1=MUwwTDEwMDFMU0w0NUwwTDBMMExOTDAw" 
     },
     {
         "gender" : "male",
-        "image" : "../../img/shoppingmall_logo20.png",
+        "image" : "../../img/shoppingmall_logo20.jpg",
         "name" : "미스터스트릿",
         "url" :"https://mr-s.co.kr/?cafe_mkt=sta&_sta1=MUwwTDEwMDFMU0w5NDlMMEwwTDBMTkww" 
     }

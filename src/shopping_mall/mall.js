@@ -69,23 +69,25 @@ function onButtonClick(e, items) {
 }
 
 // jquery 사용(modal control)
-$(document).ready(function() {
-    $(".listBtn").click(function() {
-        $(".modal_bg").css({"display" : "block"})
+$(document).ready(function () {
+    $(".listBtn").click(function () {
+        $(".modal_bg").css({ "display": "block" })
     })
 });
 
-$(document).ready(function() {
-    $(".exit").click(function() {
-        $(".modal_bg").css({"display" : "none"})
+$(document).ready(function () {
+    $(".exit").click(function () {
+        $(".modal_bg").css({ "display": "none" })
     })
 });
+
+
 
 // Show modal list
 function loadLists() {
     return fetch("../../data/list.json")
-    .then((response) => response.json())
-    .then((json) => json.lists)
+        .then((response) => response.json())
+        .then((json) => json.lists)
 }
 
 loadLists()
@@ -94,14 +96,14 @@ loadLists()
 
 function displayLists(lists) {
     const container = document.querySelector(".lists");
-    container.innerHTML = lists.map(list => createString(list).join(""));
+    container.innerHTML = lists.map((list) => createString(list)).join("");
 }
 
 function createString(list) {
     return `
     <li class="list">
         <img src="${list.image}" alt="logo" class="list_thumbnail" />
-        <span class="listUrl"> <a href="${list.url}">${list.name}</a>, ${list.gender}</span>
+        <span class="listUrl"> <a href="${list.url}">${list.name}</a> , ${list.gender}</span>
     </li>
     `
 }

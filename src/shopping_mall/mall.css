@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 97vh;
     background-color: var(--color-black);
 }
 
@@ -80,15 +80,26 @@ nav a {
     background: #fff;
 }
 
-header {
+.head {
+    position: relative;
     display: flex;
-    justify-content: space-between;
- 
+    justify-content: center;
 }
 
 .modal p {
+    margin-bottom: 40px;
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 650;
+}
+
+.exit {
+    position: absolute;
+    top: 0px;
+    right: -175px;
+    width: 40px;
+    height: 35px;
+    background-color: var(--color-light-grey);
+    border-radius: 4px;
 }
 
 /* header */
@@ -183,7 +194,7 @@ header {
 /* modal - list*/
 
 .lists {
-    width: 40vw;
+    width: 50vw;
     height: 60vh;
     list-style: none;
     padding-left: 0;
@@ -195,12 +206,19 @@ header {
     align-items: center;
     margin-bottom: 18px;
     padding:10px 20px;
-    background-color: white;
+    background-color: var(--color-pink);
+}
+
+.list a {
+    color:var(--color-white);
+    text-decoration: none;
+    font-weight: 900;
 }
 
 .list_thumbnail {
     width: 50px;
     height: 50px;
+    margin-right: 20px;
 }
 
 .listUrl {
