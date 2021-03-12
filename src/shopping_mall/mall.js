@@ -2,7 +2,7 @@
 
 // Fetch the items from the JSON file
 function loadItems() {
-    return fetch("data/data.json")
+    return fetch("../../data/data.json")
         .then((response) => response.json()) // 성공이면 json으로 변환하고
         .then((json) => json.items); // json안의 items를 리턴한다
 }
@@ -83,7 +83,7 @@ $(document).ready(function() {
 
 // Show modal list
 function loadLists() {
-    return fetch("data/list.json")
+    return fetch("../../data/list.json")
     .then((response) => response.json())
     .then((json) => json.lists)
 }
