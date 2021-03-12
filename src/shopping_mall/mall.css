@@ -178,6 +178,7 @@ nav a {
     align-items: center;
     margin-bottom: 18px;
     padding:10px 20px;
+    width: 40vw;
     background-color: white;
 }
 
@@ -194,7 +195,7 @@ nav a {
 /* modal - list*/
 
 .lists {
-    width: 50vw;
+    width: 40vw;
     height: 60vh;
     list-style: none;
     padding-left: 0;
