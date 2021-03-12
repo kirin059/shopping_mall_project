@@ -19,7 +19,7 @@
 
 body {
     width: 100vw;
-    height: 100vh;
+    
     background-color: var(--color-black);
 }
 
@@ -28,7 +28,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
     padding: 16px;
     width: 100%;
     background-color: var(--color-pink);
@@ -49,6 +49,76 @@ nav a {
     text-decoration: none;
 }
 
+/* image slide */
+.slideshow-container {
+  position: relative;
+  max-width: 75%;  
+  height: 250px;;    
+  margin: auto;
+}
+
+.mySlides {
+  width:100%;
+  height:500px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.prev, .next {
+  position: absolute;   
+  top: 45%;
+  width: 80px;
+  height: 80px;;
+  padding: 10px;
+  margin-top: -0;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  transition: 0.6s ease;
+  border: 1px solid var(--color-light-grey);
+  border-radius: 50%;
+  cursor: pointer;
+  }
+
+  .prev {
+    padding-left: 20px;
+    left: -120px;
+  }
+  .next {
+    padding-left: 25px;
+    right: -120px;
+  }
+
+  .dot-container {
+    position: absolute;
+    top: 430px;
+    left: 910px;
+  }
+
+  .dot {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: var(--color-black);
+    border-radius: 50%;
+    transition: var(--color-yellow) 0.6s ease;
+    cursor: pointer;
+    z-index: 5;
+  }
+
+  .active, .dot:hover {
+    background-color: var(--color-yellow);
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+
 /* main */
 main {
     position: relative;
@@ -62,7 +132,7 @@ main {
 
 .home_btn {
     position: absolute;
-    top: 400px;
+    top: 210px;
     left: 0;    
     width: 90%;
     height: 90%;
@@ -79,7 +149,7 @@ main {
 
 .gradient-circle {
     position: absolute;
-    top: 390px;
+    top: 200px;
     left: -10px;
     z-index: -2;
     height: 100%;
@@ -100,16 +170,16 @@ main {
   }
 
   .pointer {
+    display: block;
     background-color: #fff;
     border-radius: 50%;
     height: 20px;
     width: 20px;
-    display: block;
   }
   
   .pointer-container {
     position: absolute;
-    top: 360px;
+    top: 170px;
     left: 85px;
     width: 10px;
     height: 130px;

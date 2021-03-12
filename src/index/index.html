@@ -1,35 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="./index.css" rel="stylesheet" />
-        <script defer src="./index.js"></script>
-        <title>shopping mall</title>
-    </head>
-    <body>
-        <nav>
-            <img src="../../img/shopping_cart.png" alt="home" class="logo" />
-            <a href="./index.html">
-                <span>Happy Clothes Word</span>
-            </a>
-            <img src="../../img/gift-box.png" alt="home" class="logo" />
-        </nav>
 
-        <main>
-            <!-- 이미지 슬라이드 넣기-->
-            <div class="pointer-container">
-                <span class="pointer"></span>
-              </div>
-              
-            <button class="home_btn">
-                <a href="../shopping_mall/mall.html">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./index.css" rel="stylesheet" />
+    <script defer src="./index.js"></script>
+    <title>shopping mall</title>
+</head>
+
+<body>
+    <nav>
+        <img src="../../img/shopping_cart.png" alt="home" class="logo" />
+        <a href="./index.html">
+            <span>Happy Clothes Word</span>
+        </a>
+        <img src="../../img/gift-box.png" alt="home" class="logo" />
+    </nav>
+
+    <!-- 이미지 슬라이드 넣기-->
+    <div class="slideshow-container">
+        <!-- image (1) -->
+        <div class="mySlides fade">
+            <!--mySlides와 fade라는 class를 2개 적용한 것-->
+            <img src="../../img/slide01.jpeg" alt="pashion" style="width:100%; height:350px;" />
+        </div>
+
+        <!-- image (2) -->
+        <div class="mySlides fade">
+            <img src="../../img/slide02.jpeg" alt="pashion" style="width:100%; height:350px;" />
+        </div>
+
+        <!-- image (3) -->
+        <div class="mySlides fade">
+            <img src="../../img/slide03.jpeg" alt="pashion" style="width:100%; height:350px;" />
+
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <!-- &#10094 는 '<' 부호를 뜻함 -->
+        <a class="next" onclick="plusSlides(1)">&#10095;</a> <!-- &#10095 는 '>' 부호를 뜻함 -->
+
+    </div>
+
+    <div class="dot-container" style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <main>
+
+        <div class="pointer-container">
+            <span class="pointer"></span>
+        </div>
+
+        <button class="home_btn">
+            <a href="../shopping_mall/mall.html">
                 <img src="../../img/logo.png" alt="home" class="logo" />
             </a>
-            </button>
+        </button>
 
-            <div class="gradient-circle"></div>
-        </main>
-    </body>
+        <div class="gradient-circle"></div>
+    </main>
+</body>
+
 </html>
