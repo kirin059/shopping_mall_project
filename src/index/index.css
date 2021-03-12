@@ -28,8 +28,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
-    padding: 18px;
+    margin-bottom: 45px;
+    padding: 16px;
     width: 100%;
     background-color: var(--color-pink);
 }

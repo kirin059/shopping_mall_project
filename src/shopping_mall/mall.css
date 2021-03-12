@@ -30,7 +30,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 75px;
+    margin-bottom: 45px;
     padding: 18px;
     width: 100%;
     background-color: var(--color-pink);
@@ -56,7 +56,39 @@ nav a {
     transition: transform 300ms ease;
 }
 
+/* modal */
+.modal_bg {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
 
+.modal {
+    position: absolute;
+    top: calc(50% - 350px);
+    left: calc(50% - 400px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 700px;
+    background: #fff;
+}
+
+.modal header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal p {
+    font-size: 40px;
+    font-weight: 700;
+}
 
 /* header */
 .homeBtn {
@@ -66,7 +98,7 @@ nav a {
 
 .homeBtn:hover,
 .btn:hover,
-.info:hover, {
+.info:hover {
     transform: scale(1.1);
 }
 

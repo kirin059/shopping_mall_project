@@ -67,3 +67,16 @@ function onButtonClick(e, items) {
     // displayItems함수의 인자는 filtered가 들어간다
     displayItems(filtered);
 }
+
+// jquery 사용(modal control)
+$(document).ready(function() {
+    $(".listBtn").click(function() {
+        $(".modal_bg").css({"display" : "block"})
+    })
+});
+
+$(document).ready(function() {
+    $(".exit").click(function() {
+        $(".modal_bg").css({"display" : "none"})
+    })
+});
