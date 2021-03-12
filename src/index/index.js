@@ -12,8 +12,8 @@ function loadItems() {
 loadItems()
     .then((items) => {
         // 성공이면, 아래 두 함수를 실행한다
-        displayItems(items);
-        setEventListener(items);
+        displayItems(items);  // item 를 보여주는 함수
+        setEventListener(items); // filtering 해주는 함수
     })
     // 실패하면, console.log로 출력되도록 한다
     .catch(console.log);
@@ -36,11 +36,11 @@ function createHTMLString(item) {
 
 // (2) 각 버튼들을 클릭하면 eventListener가 작동하도록 하는 함수
 function setEventListener(items) {
-    const logo = document.querySelector(".homeBtn");
-    const btns = document.querySelector(".btns");
+    const logo = document.querySelector(".logo");
+    const btns = document.querySelector("nav");
 
     // logo 버튼을 클릭하면 모든 리스트가 보이도록
-    logo.addEventListener("click", (e) => displayItems(items));
+    logo.addEventListener("click", () => displayItems(items));
     // nav 버튼 6개들이 클릭되면 onButtonClick함수가 실행되도록
     btns.addEventListener("click", (e) => onButtonClick(e, items));
 }
@@ -64,44 +64,5 @@ function onButtonClick(e, items) {
     // console.log(filtered);
 
     // 필터링 할 정보가 들어있지 않는 경우를 제외하면(=필터링 할 정보가 들어있으면) displayItems함수를 실행한다
-    // displayItems함수의 인자는 filtered가 들어간다
     displayItems(filtered);
-}
-
-// jquery 사용(modal control)
-$(document).ready(function() {
-    $(".listBtn").click(function() {
-        $(".modal_bg").css({"display" : "block"})
-    })
-});
-
-$(document).ready(function() {
-    $(".exit").click(function() {
-        $(".modal_bg").css({"display" : "none"})
-    })
-});
-
-// Show modal list
-function loadLists() {
-    return fetch("data/list.json")
-    .then((response) => response.json())
-    .then((json) => json.lists)
-}
-
-loadLists()
-    .then((lists) => { displayLists(lists); })
-    .catch(console.log)
-
-function displayLists(lists) {
-    const container = document.querySelector(".lists");
-    container.innerHTML = lists.map(list => createString(list).join(""));
-}
-
-function createString(list) {
-    return `
-    <li class="list">
-        <img src="${list.image}" alt="logo" class="list_thumbnail" />
-        <span class="listUrl"> <a href="${list.url}">${list.name}</a>, ${list.gender}</span>
-    </li>
-    `
 }
